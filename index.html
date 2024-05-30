@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholar Tutorial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <style>
+        /* Internal CSS Goes Here */
+    </style>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <h2>ONLINE TUTORIAL</h2>
+    </header>
+    <!-- Header End -->
+
+    <!-- Navbar Start -->
+    <nav class="nav nav-fill bg-warning" id="navbar">
+        <a href="#" class="nav-link active">HOME</a>
+        <a href="#courses_section" class="nav-link active">COURSES</a>
+        <a href="#contactus_section" class="nav-link active">CONTACT US</a>
+        <a href="#faqs_section" class="nav-link active">FAQs</a>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Section Start -->
+    <img src="./assets/img/webdevelopment.jpg" alt="Web_Development" id="img1" class="img-fluid rounded-pill"
+        align="right">
+
+    <div id="first">
+        <span id="line1">Web Design &</span><br />
+        <span id="line2">Development</span><br />
+        <span id="line3">Course</span><br /><br />
+
+        <span id="line4">
+            <pre>Web Design is a specialization of the design stream. 
+They also use HTML, CSS, editing software, markup 
+validators etc., to create design elements.</pre>
+        </span>
+
+    </div>
+    <button class="btn btn-warning" type="submit" id="button"><a href="#contactus_section">JOIN FOR FREE</a></button>
+    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sequi doloremque id excepturi
+        natus? Vitae molestias ducimus ullam! Tempora iste ex delectus alias. Placeat libero eligendi illo numquam
+        nostrum, consectetur, ad nulla quibusdam officia quo odio! Delectus consectetur illum vitae ipsa ad libero
+        maiores, error magnam asperiores, quas vel aut accusantium ex voluptas modi exercitationem earum. Commodi
+        repudiandae id laudantium odit autem laboriosam ipsam, dolore, voluptas dolor totam esse. Dolores, nobis rerum
+        recusandae omnis perferendis explicabo. Sequi iste ab eaque!</p>
+    <p class="content">Placeat libero eligendi illo nostrum, consectetur, ad nulla quibusdam officia quo odio!
+        maiores, error magnam asperiores, quas vel aut accusantium ex voluptas modi exercitationem earum. Commodi
+        repudiandae id laudantium odit autem laboriosam ipsam, dolore, voluptas dolor totam esse. Dolores, nobis rerum
+        recusandae omnis.</p>
+    <!-- Home Section End -->
+
+
+    <!-- Courses Section Start -->
+    <section id="courses_section"></section>
+    <div class="courses-heading">
+        <h3>COURSES</h3>
+    </div>
+    <p class="sub-heading1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed fuga fugit dolores
+        delectus
+        maxime corrupti mollitia eaque omnis repellat maiores, illum amet, aliquid inventore culpa, deleniti in
+        soluta
+        obcaecati labore dolor tenetur. Labore beatae vero laboriosam illum delectus deleniti molestias
+        reprehenderit
+        cupiditate optio! Quidem voluptas magnam, molestiae blanditiis itaque dicta.</p> <br />
+    <p class="sub-heading2">Get access to unlimited courses on....</p>
+    <div class="container">
+        <div>
+            <img src="./assets/img/frontend.jpg" alt="Web_Development" height="300px" width="300px">
+            <p align="center">FRONT-END TECHNOLOGIES</p>
+        </div>
+        <div>
+            <img src="./assets/img/backend.jpg" alt="Web_Development" height="300px" width="300px">
+            <p align="center">BACK-END TECHNOLOGIES</p>
+        </div>
+        <div>
+            <img src="./assets/img/database.jpg" alt="Web_Development" height="300px" width="300px">
+            <p align="center">DATABASE MANAGEMENT SYSTEMS</p>
+        </div>
+    </div>
+
+    <!-- Courses Section End -->
+
+    <!-- Contact us Section Start -->
+    <section id="contactus_section"></section>
+    <div class="contact-heading">
+        <h3>CONTACT US</h3>
+    </div>
+    <h4 class="form-heading">Join for free....!!</h4>
+    <form>
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+        </div>
+        <div class="form-group">
+            <label for="mobileNumber">Mobile Number</label>
+            <input type="tel" class="form-control" id="mobileNumber" placeholder="Enter your mobile number">
+        </div>
+        <div class="form-group">
+            <label for="emailAddress">Email Address</label>
+            <input type="email" class="form-control" id="emailAddress" placeholder="Enter your email address">
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <select class="form-control" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="Enter your city">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <!-- Contact us Section End -->
+
+    <!-- FAQs Section Start -->
+    <section id="faqs_section"></section>
+    <div class="faqs-heading">
+        <h3>Frequently Asked Questions</h3>
+    </div>
+    <div class="questions">
+        <details>
+            <summary>Q.1: What is Front-End Development?</summary>
+            <p>Front-end development is the creation of a website’s graphical user interface (GUI) using HTML, CSS,
+                and JavaScript. It focuses on designing and building the parts of a website that users interact with
+                directly, such as buttons, text boxes, and other visual elements.</p>
+        </details>
+        <details>
+            <summary>Q.2: What is Back-End Development?</summary>
+            <p>Back-end development means working on server-side software, which focuses on everything you can’t see on
+                a websiteBack-end developers ensure the website performs correctly, focusing on databases, back-end
+                logic, application programming interface (APIs), architecture, and servers.</p>
+        </details>
+        <details>
+            <summary>Q.3: What is Database Management System?</summary>
+            <p>A Database Management System (DBMS) is software that allows users to create, define, manipulate, and
+                manage databases. It provides an organized way to store, retrieve, and modify data efficiently. Some
+                popular databases include MySQL, Oracle, and MongoDB.</p>
+        </details>
+        <details>
+            <summary>Q.4: What is MERN Stack?</summary>
+            <p>The MERN stack is a powerful collection of technologies that enables faster application development using
+                JavaScript.<br />
+                1. MongoDB: A non-relational database that stores data in a flexible, JSON-like format. It’s great for
+                handling large amounts of unstructured data.<br />
+                2. Express: A web server framework built on top of Node.js. It simplifies the process of creating web
+                applications and APIs.<br />
+                3. React: A JavaScript frontend library for building user interfaces. React allows you to create dynamic
+                and interactive components.<br />
+                4. Node.js: A JavaScript runtime environment that runs server-side code. It’s used to implement the
+                application layer of your website.</p>
+        </details>
+        <details>
+            <summary>Q.5: What is MEAN Stack?</summary>
+            <p>The MEAN Stack is a JavaScript-based set of technologies used for building web and mobile applications.
+                It simplifies app development and maintenance by using a single language, JavaScript, for both the
+                front-end and back-end components of an application.<br />
+                1. MongoDB: A non-relational, open-source, document-oriented database. It stores data in a flexible,
+                JSON-like format, making it suitable for handling dynamic and unstructured data.<br />
+                2. Express.js: A framework built upon Node.js that simplifies organizing application functionality with
+                middleware and routing. It is commonly used for creating APIs and handling server-side logic.<br />
+                3. AngularJS: An open-source front-end structural framework mainly used for developing single-page web
+                applications (SPAs). It provides tools for building dynamic user interfaces.<br />
+                4. Node.js: An open-source, cross-platform runtime environment for building highly scalable server-side
+                applications using JavaScript. It allows developers to run JavaScript code on the server, making it a
+                key component of the MEAN stack.</p>
+        </details>
+    </div>
+    <!-- FAQs Section End -->
+
+    <!-- JS Files -->
+    <script src="#"></script>
+</body>
+
+</html>

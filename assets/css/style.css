@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+/* Header Section Start */
+header {
+    background-color: blueviolet;
+    text-align: center;
+    align-content: center;
+    color: whitesmoke;
+    padding-top: 10px;
+}
+
+/* Header Section End */
+
+/* Navbar Section Start */
+#navbar {
+    font-size: medium;
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    border: 2px groove whitesmoke;
+}
+
+nav#navbar .nav-link active {
+    color: aliceblue;
+    background-color: black;
+}
+
+#navbar a:hover {
+    color: aliceblue;
+    background-color: black;
+}
+
+/* Navbar Section End */
+
+/* Home Section Start */
+#img1 {
+    height: 250px;
+    width: 480px;
+    border: 2px double black;
+    margin: 28px 25px;
+}
+
+#first {
+    margin: 15px 25px;
+    padding-top: 20px;
+}
+
+span {
+    font-size: large;
+}
+
+#line2 {
+    color: orange;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#line4 {
+    font-size: large;
+    color: rgb(183, 24, 77);
+}
+
+#button {
+    font-weight: bold;
+    margin: 15px 25px;
+}
+
+#button a {
+    text-decoration: none;
+}
+
+.content {
+    margin: 0px 25px;
+    padding: 7px 0px;
+}
+
+/* Home Section End */
+
+/* Courses Section Start */
+.courses-heading h3 {
+    background-color: blueviolet;
+    text-align: center;
+    align-content: center;
+    color: whitesmoke;
+    margin-top: 8vh;
+    padding: 10px 0px;
+}
+
+.sub-heading1 {
+    margin: 0px 25px;
+}
+
+.sub-heading2 {
+    margin: 0px 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container img {
+    margin: 2vh 0vh;
+}
+
+/* Courses Section End */
+
+/* Contact us Section Start */
+.contact-heading h3 {
+    background-color: blueviolet;
+    text-align: center;
+    align-content: center;
+    color: whitesmoke;
+    margin-top: 8vh;
+    padding: 10px 0px;
+}
+
+.form-heading {
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px 0px;
+}
+
+.form-group {
+    margin: 0px 25px;
+    padding: 6px 0px;
+}
+form button{
+    margin: 6px 25px;
+}
+/* Contact us Section End */
+
+/* FAQs Section Start */
+.faqs-heading {
+    background-color: blueviolet;
+    text-align: center;
+    align-content: center;
+    color: whitesmoke;
+    margin-top: 8vh;
+    padding: 10px 0px;
+}
+
+.questions {
+    margin: 0px 25px;
+    padding: 3px 0px;
+}
+
+.questions summary {
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.questions p {
+    padding: 5px 0px;
+    font-size: large;
+}
+
+/* FAQs Section End */
